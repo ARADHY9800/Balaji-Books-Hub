@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gift Store Contact</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      text-align: center;
+      background: linear-gradient(-45deg, #ff6b6b, #f7b733, #4facfe, #00f2fe);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    h1 {
+      font-size: 2.2em;
+      margin-top: 60px;
+      animation: fadeIn 1.5s ease-out;
+      padding: 0 15px;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 500px;
+      animation: fadeIn 2s ease-out;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      margin: 25px 0;
+      animation: fadeIn 2.5s ease-out;
+    }
+
+    a.button {
+      padding: 14px 28px;
+      background-color: #25D366;
+      color: white;
+      font-weight: bold;
+      font-size: 1.05em;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: transform 0.2s ease;
+      width: 250px;
+      max-width: 80%;
+    }
+
+    a.button.call {
+      background-color: #1e90ff;
+    }
+
+    a.button:hover {
+      transform: scale(1.05);
+    }
+
+    iframe {
+      width: 90%;
+      max-width: 600px;
+      height: 400px;
+      border: none;
+      border-radius: 15px;
+      margin: 40px 0;
+      animation: fadeIn 3s ease-out;
+    }
+
+    footer {
+      padding: 20px;
+      font-size: 0.9em;
+      background: rgba(0, 0, 0, 0.2);
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      animation: fadeIn 3.5s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.8em;
+      }
+
+      p {
+        font-size: 1em;
+      }
+
+      a.button {
+        font-size: 1em;
+        padding: 12px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to Our Gift Store 🎁</h1>
+  <p>Ask us anything about stock or our products using WhatsApp or a quick call:</p>
+
+  <div class="buttons">
+    <a href="https://wa.me/919651586886" class="button" target="_blank">📲 WhatsApp Us</a>
+    <a href="tel:+919651586886" class="button call">📞 Call Us Now</a>
+  </div>
+
+  <h2 style="margin-top: 40px;">📍 Visit Us</h2>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1758.930841284473!2d77.2519704!3d28.6396039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfbb02bc0fc7f%3A0xa931fc26d22313d8!2sPlot%20no%20105%2C%20near%20Chaman%20Atta%20Chakki%2C%20Sector-1%2C%20Vaishali%2C%20Ghaziabad%2C%20Uttar%20Pradesh%20201019!5e0!3m2!1sen!2sin!4v1713459861257!5m2!1sen!2sin" 
+    loading="lazy" 
+    allowfullscreen>
+  </iframe>
+
+  <footer>
+    Powered by <strong>SKULL CHUNKS</strong>
+  </footer>
+
+</body>
+</html>
